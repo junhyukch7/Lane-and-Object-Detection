@@ -233,7 +233,7 @@ int LaneDetector::getLeftX_base(vector<int> sumArray)
 	// int leftMaxValue = *max_element(left_qtr.begin(), left_qtr.end());
 
 	// adjust pixel index for global x width.
-	leftX_base = leftMaxIndex + qtrPoint - 50;
+	leftX_base = leftMaxIndex + qtrPoint;
 	
 	return leftX_base;
 }
